@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width:100%;
+  padding:30px 20px;
+  display:flex;
+  justify-content: flex-end;
+  background-color:red;
+}
+header > div {
+  flex-basis:140px;
+  height:70px;
+  margin: 0 10px;
+  background-color: #fff;
+}
+header > :first-child {
+  margin-right: auto;
+  
+}
+
+main{
+  display:flex;
+}
+
+.sidebar{
+  width:300px;
+  background-color: pink;
+}
+
+.sidebar-content{
+  display:flex;
+  flex-wrap:wrap;
+}
